@@ -15,6 +15,7 @@
         <!--! ici on a remplacer la balise du lien <a></a> par router-link mais en gardant la class bootstrap -->
         <router-link to="/articles" class="nav-link active" aria-current="page" href="#">Articles</router-link>
         <router-link to="/add" class="nav-link" href="#">Ajouter</router-link>
+        <router-link to="/rqt" class="nav-link" href="#">Requête</router-link>
         </div>
       </div>
     </div>

@@ -18,6 +18,11 @@ const routes =  [
         component: () => import("./components/AddArticle.vue")
     },
     {
+        path: "/rqt",
+        name: "rqt",
+        component: () => import("./components/GetRequest.vue")
+    },
+    {
         path: "/:patchMatch(.*)",
         name: "notFound",
         component: () => import("./components/NotFound.vue")
